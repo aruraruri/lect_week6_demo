@@ -4,7 +4,7 @@ pipeline {
                 PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;${env.PATH}"
 
                 // Define Docker Hub credentials ID
-                DOCKERHUB_CREDENTIALS_ID = 'aruraruri'
+                DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
                 // Define Docker Hub repository name
                 DOCKERHUB_REPO = 'aruraruri/lect_week6_demo'
                 // Define Docker image tag
